@@ -1,0 +1,15 @@
+    $("button").click(function(){
+      $.ajax({
+	    type: "GET",
+	    url: "cd_catalog.xml",
+	    dataType: "xml",
+	    success: function(xml){
+
+
+	  },
+	  error: function() {
+	    alert("An error occurred while processing XML file.");
+	  }
+	  });
+
+    });

@@ -1,0 +1,94 @@
+table tr, th, td {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.countryTitle {
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.content {
+    display: none;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+/* .content div, .content div table {
+    display: block;
+    position: relative;
+} */
+
+table {
+    width: 700px;
+    /* position: absolute;
+    right: 30px; */
+}
+
+#contentEu {
+    position: absolute;
+}
+
+#contentUsa {
+    position: absolute;
+}
+
+#contentNorway {
+    position: absolute;
+}
+
+#contentUk {
+    position: absolute;
+}
+#btnAdd {
+    /* display: none; */
+    cursor: pointer;
+}
+
+#listCountry {
+    padding-top: 50px;
+    position: absolute;
+}
+
+#listCountry li {
+    list-style: none;
+    padding-top: 40px;
+    width: 120px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    background-color: black;
+}
+
+#listCountry li:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+#iconCart {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 90px;
+    cursor: pointer;
+}
+
+#iconCart:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#cart {
+    display: none;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+.cartTitle {
+    text-align: center;
+}

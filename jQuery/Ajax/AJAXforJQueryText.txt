@@ -1,0 +1,15 @@
+    $("button").click(function(){
+      $.ajax({
+	    type: "GET",
+	    url: "teatFile.txt",
+	    dataType: "text",
+	    success: function(text){
+
+		
+	  },
+	  error: function() {
+	    alert("An error occurred while processing XML file.");
+	  }
+	  });
+
+    });
